@@ -1,0 +1,17 @@
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/squirrel-openai.deps.json
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/squirrel-openai.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/squirrel-openai.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.csproj.AssemblyReference.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.GeneratedMSBuildEditorConfig.editorconfig
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.AssemblyInfoInputs.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.AssemblyInfo.cs
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.csproj.CoreCompileInputs.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/refint/squirrel-openai.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/ref/squirrel-openai.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/consolereadwrite.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/squirrel-inheritable.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/consolereadwrite.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/bin/Debug/net6.0/squirrel-inheritable.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/Debug/net6.0/squirrel-openai.csproj.CopyComplete

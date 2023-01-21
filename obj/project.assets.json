@@ -1,0 +1,254 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenAI/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenAI_API.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenAI_API.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SecureStringExtensions.NetStandard/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SecureStringExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SecureStringExtensions.dll": {}
+        }
+      },
+      "consolereadwrite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/consolereadwrite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/consolereadwrite.dll": {}
+        }
+      },
+      "squirrel-inheritable/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/squirrel-inheritable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/squirrel-inheritable.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OpenAI/1.3.0": {
+      "sha512": "KUwq3IckkyLNbxerRri/x+t/yxVDjOqzRYCH60uVaObCFuE5rHPs1QZjtt4pCSbfniGOePQ7txRrxA93+QkYtQ==",
+      "type": "package",
+      "path": "openai/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/OpenAI_API.dll",
+        "lib/netstandard2.0/OpenAI_API.xml",
+        "openai.1.3.0.nupkg.sha512",
+        "openai.nuspec"
+      ]
+    },
+    "SecureStringExtensions.NetStandard/1.0.0": {
+      "sha512": "3CKhraMjbyhUeDFdCCh4oDCY71WlHRq6qNxYVYwvi099QIdRJ9lCbfMVt/i3LpzPhiQQH3MIuZ8knFD2iItVAw==",
+      "type": "package",
+      "path": "securestringextensions.netstandard/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/images/toolbox.png",
+        "images/toolbox.png",
+        "lib/netstandard2.0/SecureStringExtensions.dll",
+        "securestringextensions.netstandard.1.0.0.nupkg.sha512",
+        "securestringextensions.netstandard.nuspec"
+      ]
+    },
+    "consolereadwrite/1.0.0": {
+      "type": "project",
+      "path": "../Squirrel-Console-Read-Write/consolereadwrite.csproj",
+      "msbuildProject": "../Squirrel-Console-Read-Write/consolereadwrite.csproj"
+    },
+    "squirrel-inheritable/1.0.0": {
+      "type": "project",
+      "path": "../Squirrel-Inheritable/squirrel-inheritable.csproj",
+      "msbuildProject": "../Squirrel-Inheritable/squirrel-inheritable.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OpenAI >= 1.3.0",
+      "SecureStringExtensions.NetStandard >= 1.0.0",
+      "consolereadwrite >= 1.0.0",
+      "squirrel-inheritable >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/ferret/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/squirrel-openai.csproj",
+      "projectName": "squirrel-openai",
+      "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/squirrel-openai.csproj",
+      "packagesPath": "/home/ferret/.nuget/packages/",
+      "outputPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-OpenAI/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/ferret/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/ferret/GIT/Squirrel_Project/Squirrel-Console-Read-Write/consolereadwrite.csproj": {
+              "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Console-Read-Write/consolereadwrite.csproj"
+            },
+            "/home/ferret/GIT/Squirrel_Project/Squirrel-Inheritable/squirrel-inheritable.csproj": {
+              "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Inheritable/squirrel-inheritable.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "OpenAI": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "SecureStringExtensions.NetStandard": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/ferret/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
